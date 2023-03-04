@@ -26,3 +26,9 @@ file.write("\nA atual lang / long é: " + str(g.latlng))
 file.close()
 webbrowser.open("iss.txt")
 
+# Setup the world map in turtle module
+screen = turtle.Screen()
+screen.setup(1280, 720)
+screen.setworldcoordinates(-180, -90, 180, 90)
+
+
