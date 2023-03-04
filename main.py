@@ -31,4 +31,11 @@ screen = turtle.Screen()
 screen.setup(1280, 720)
 screen.setworldcoordinates(-180, -90, 180, 90)
 
+# load the world map image
+screen.bgpic("map.gif")
+screen.register_shape("iss.gif")
+iss = turtle.Turtle()
+iss.shape("iss.gif")
+iss.setheading(45)
+iss.penup()
 
